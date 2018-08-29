@@ -1,0 +1,29 @@
+{
+    "name": "Lab 12",
+    "endpoint": "cal/cs61a/su17/lab12",
+    "src": [
+        "lab12.py"
+    ],
+    "tests": {
+        "tests/iterators.py": "ok_test",
+        "tests/generators.py": "ok_test",
+        "lab12.py": "doctest",
+        "lab12_extra.py": "doctest"
+    },
+    "default_tests": [
+        "iterators",
+        "generators",
+        "countdown",
+        "trap",
+        "repeated",
+        "ones_test"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
